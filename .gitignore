@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Generated CSVs (intermediate training files)
+pp5i_train.top*.gr.csv
+pp5i_train.bestN.csv
+pp5i_test.bestN.csv
+output.txt
+
+# Jupyter
+.ipynb_checkpoints
+
+# Matplotlib cache
+.matplotlib/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
